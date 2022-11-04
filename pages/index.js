@@ -136,7 +136,7 @@ export default function Home() {
                   <Segment loading={loading}>
                     <Form>
                       <Form.Group inline>
-                        <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" width="260" height="40">
+                        
                         <label>Login Via tt</label>
                         <Form.Field>
                           <Radio
