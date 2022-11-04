@@ -136,7 +136,7 @@ export default function Home() {
                   <Segment loading={loading}>
                     <Form>
                       <Form.Group inline>
-                        <label>Login via </label>
+                        <label>Login Via </label>
                         <Form.Field>
                           <Radio
                             label='OTP'
