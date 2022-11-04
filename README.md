@@ -16,6 +16,6 @@ b) npm run dev
 
 Once you generate the m3u URL, you don't need to do it every 24 hours. It will automatically generate fresh JWT on every request.
 ## Inspiration
-https://github.com/ForceGT/Tata-Sky-IPTV
+https://github.com/ForceGT/Tata-Sky-IPTV.
 
 ### Feel free to contribute :smiley:
