@@ -135,12 +135,13 @@ export default function Home() {
                 <Grid.Column computer={8} tablet={12} mobile={16}>
                   <Segment loading={loading}>
                     <Form>
+                    <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" width="260" height="40"></img>
                       <Form.Group inline>
-                        <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" width="260" height="40"></img>
+                       
                         <br></br>
                         <p></p>
            
-                        <h4>Login via:</h4>
+                        <label>Login via:</label>
                         <Form.Field>
                           <Radio
                             label='OTP'
