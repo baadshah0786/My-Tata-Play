@@ -140,7 +140,7 @@ export default function Home() {
                         <br></br>
                         <p></p>
            
-                        <label>Login Via</label>
+                        <h4>Login via:</h4>
                         <Form.Field>
                           <Radio
                             label='OTP'
