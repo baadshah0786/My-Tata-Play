@@ -138,11 +138,11 @@ export default function Home() {
                     <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" className="center" width="260" height="40"></img>
                       <Form.Group inline>
                        
-                      <text>~{"\n"}</text>
-           
+                      <text>{"\n"}</text>
+                      <div className='center'>   
                         <label>Login via:</label>
                         <Form.Field className='center'>
-                          <div className='center'>                          <Radio
+                                               <Radio
                             
                             label='OTP'
                             name='loginTypeRadio'
@@ -150,8 +150,9 @@ export default function Home() {
                             checked={loginType === 'OTP'}
                             onChange={(e, { value }) => { setLoginType(value); }}
                           />
-                          </div>
+                          
                         </Form.Field>
+                        </div>
                         <Form.Field>
                           <Radio
                             label='Password'
