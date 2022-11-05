@@ -138,12 +138,12 @@ export default function Home() {
                     <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" className="center" width="260" height="40"></img>
                       <Form.Group inline>
                        
-                        <br></br>
-                        <p></p>
+                      <text>/n</text>
            
                         <label>Login via:</label>
                         <Form.Field>
                           <Radio
+                            className='center'
                             label='OTP'
                             name='loginTypeRadio'
                             value='OTP'
