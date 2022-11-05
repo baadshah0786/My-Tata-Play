@@ -141,6 +141,8 @@ export default function Home() {
                       <text>{"\n"}</text>
                       <div className='center'>   
                         <label>Login via:</label>
+                        </div>
+                        <div className='center'>   
                         <Form.Field>
                                                <Radio
                             
@@ -153,6 +155,7 @@ export default function Home() {
                           
                         </Form.Field>
                         </div>
+                        <div className='center'>   
                         <Form.Field>
                           <Radio
                             label='Password'
@@ -162,6 +165,7 @@ export default function Home() {
                             onChange={(e, { value }) => { setLoginType(value); }}
                           />
                         </Form.Field>
+                        <div className='center'>   
                       </Form.Group>
 
                       {
