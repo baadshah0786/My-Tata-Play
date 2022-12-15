@@ -135,7 +135,7 @@ export default function Home() {
                 <Grid.Column computer={8} tablet={12} mobile={16}>
                   <Segment loading={loading}>
                     <Form>
-                      <img alt="TataPlay" src="https://ik.imagekit.io/techiesneh/Tata_Play_2022_logo.svg_ptaIQ8TXe.png" className="center" width="260" height="40"></img>
+                      <img alt="TataPlay" src="https://github.com/Mobassar4u/Tata-Play-IPTV-India/raw/main/Images/Tata%20Play%20IPTV%20Logo.png" className="center" width="260" height="40"></img>
                       <Form.Group inline>
 
                         <text>{"\n"}</text>
