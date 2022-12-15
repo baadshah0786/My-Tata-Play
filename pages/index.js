@@ -140,12 +140,11 @@ export default function Home() {
 
                         <text>{"\n"}</text>
                         <div className='center'>
-                          <label>Login via:</label>
+                          <label>Login Via:</label>
                         </div>
                         <div className='center'>
                           <Form.Field>
                             <Radio
-
                               label='OTP'
                               name='loginTypeRadio'
                               value='OTP'
