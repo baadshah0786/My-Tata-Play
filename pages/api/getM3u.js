@@ -15,7 +15,7 @@ export default async function handler(req, res) {
         res.status(200).send(m3uString);
     }
     else
-        res.status(409).json({ error: "Tata Sky Deactivated" });
+        res.status(409).json({ error: "Tata Play Deactivated" });
 }
 
 
@@ -32,7 +32,7 @@ const getAllChans = async () => {
     let err = null;
     let res = null;
 
-    await fetch("https://ts-api.videoready.tv/content-detail/pub/api/v1/channels?limit=599", requestOptions)
+    await fetch("https://ts-api.videoready.tv/content-detail/pub/api/v1/channels?limit=1000", requestOptions)
         .then(response => response.text())
         .then(result => res = JSON.parse(result))
         .then(r => r)
