@@ -227,7 +227,7 @@ export default function Home() {
                               </p>
                             </Message>
                             :
-                            <Header as='h3' style={{ color: 'red' }}>Your Tata Sky Connection is deactivated.</Header>
+                            <Header as='h3' style={{ color: 'red' }}>Your Tata Play Connection is deactivated.</Header>
                         }
 
                         <Button negative onClick={logout}>Logout</Button>
