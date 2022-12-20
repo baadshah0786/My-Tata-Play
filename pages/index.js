@@ -35,7 +35,7 @@ export default function Home() {
         console.log('mko');
         console.log(process.env.REACT_APP_M3U_FUNCTION_BASE_URL);
         var raw = JSON.stringify({
-          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + ('_10000000001') + '&tkn=' + token});
+          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + ('_1000000001_1000001380_1000001368_1000000200_1000000226_1000000471_1000000984_1000000985_1000001004_1000001016_1000001124_1000001131_1000001155_1000001282_1000001284_1000001302_1000001304_1000001306_1000001522_1000001626_1000001693_1000001771_1000001834_1000001861_1000001887_1000002180_1000002177_1000001023') + '&tkn=' + token});
         var requestOptions = {
           method: 'POST',
           headers: myHeaders,
@@ -51,7 +51,7 @@ export default function Home() {
           .catch(error => console.log('error', error));
       }
       else
-        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + ('_1000000001') + '&tkn=' + token);}
+        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + ('_1000000001_1000001380_1000001368_1000000200_1000000226_1000000471_1000000984_1000000985_1000001004_1000001016_1000001124_1000001131_1000001155_1000001282_1000001284_1000001302_1000001304_1000001306_1000001522_1000001626_1000001693_1000001771_1000001834_1000001861_1000001887_1000002180_1000002177_1000001023') + '&tkn=' + token);}
     else
       setDynamicUrl("");
   }, [theUser, token])
