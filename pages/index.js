@@ -38,9 +38,7 @@ export default function Home() {
         console.log('mko');
         console.log(process.env.REACT_APP_M3U_FUNCTION_BASE_URL);
         var raw = JSON.stringify({
-          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + '&tkn=' + token
-        });
-
+          "long_url": window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + '&tkn=' + token});
         var requestOptions = {
           method: 'POST',
           headers: myHeaders,
