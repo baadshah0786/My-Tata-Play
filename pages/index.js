@@ -18,8 +18,6 @@ export default function Home() {
   const [dynamicUrl, setDynamicUrl] = useState("");
   const [loginType, setLoginType] = useState("OTP");
   const [pwd, setPwd] = useState("");
-
-
   useEffect(() => {
     let tok = localStorage.getItem("token");
     let userd = localStorage.getItem("userDetails");
@@ -28,7 +26,6 @@ export default function Home() {
       setUser(JSON.parse(userd));
     }
   }, []);
-
   useEffect(() => {
     if (theUser !== null) {
       if (theUser.acStatus !== "DEACTIVATED") {
@@ -55,8 +52,7 @@ export default function Home() {
           .catch(error => console.log('error', error));
       }
       else
-        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + '&tkn=' + token);
-    }
+        console.log(window.location.origin.replace('localhost', '127.0.0.1') + '/api/getM3u?sid=' + theUser.sid + '_' + theUser.acStatus[0] + '&sname=' + theUser.sName + '&ent=' + theUser.entitlements.map(x => x.pkgId).join('_') + '&tkn=' + token);}
     else
       setDynamicUrl("");
   }, [theUser, token])
