@@ -42,7 +42,6 @@ export default function Home() {
           body: raw,
           redirect: 'follow'
         };
-
         fetch("https://api-ssl.bitly.com/v4/shorten", requestOptions)
           .then(response => response.text())
           .then(result => {
@@ -69,6 +68,7 @@ export default function Home() {
           setOtpSent(true);
           setError("");
         }
+      
         else
           setError(res.message);
       })
