@@ -1,6 +1,5 @@
 # Tata Play IPTV India m3u generator Web App
-A react web app to generate an m3u playlist for the channels subscribed on Tata Sky.
-## Update
+A react web app to generate an m3u playlist for the channels subscribed on Tata Play IPTV.
 Converted to a single repo to make it a one click deploy on vercel as a lot of you non-technical people were facing difficulties while deploying.
 ## Deploy on vercel and access from anywhere (Easy)
 1) Click the button below to deploy.<br>
