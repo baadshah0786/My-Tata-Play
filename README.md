@@ -18,4 +18,4 @@ Once you generate the m3u URL, you don't need to do refresh it every 24 hours. I
 ## Inspiration
 https://github.com/Mobassar4u/Tata-Play-IPTV-Web-App.
 
-### Feel free to contribute :smiley: :smiley: :smiley: :smiley:
+### Feel free to contribute :smiley: :smiley: :smiley:
