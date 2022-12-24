@@ -7,8 +7,9 @@ Converted to a single repo to make it a one click deploy on vercel as a lot of y
 You will need an account on Vercel. It's free!
 2) Enjoy!
 ## Run locally (You need a little bit of git and npm knowledge)
-1) Clone this repo.
-2) Open cmd / terminal and type the below commands one by one.<br>
+1) Download this repo.
+2) Extract the zip folder.
+3) Open cmd / terminal in extracted folder and type the below commands one by one.<br>
 a) npm install<br>
 b) npm run dev
 3) Enjoy!
